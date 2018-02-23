@@ -4,10 +4,10 @@ import datetime as dt
 import urllib3
 import json
 import time
+import josepy as jose
 
 from acme import client
 from acme import messages
-from acme import jose
 from acme import challenges
 
 # UPDATE THESE for the Script to work
